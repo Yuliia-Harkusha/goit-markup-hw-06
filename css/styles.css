@@ -534,6 +534,61 @@ img {
   background-color: var(--accent-text-color);
 }
 
+.footer-form {
+  margin-left: 93px;
+}
+
+.footer-form-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-form-element:not(:last-child) {
+  margin-right: 12px;
+}
+
+/* .footer-label {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--footer-auth-color);
+} */
+
+.footer-input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  width: 358px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--footer-auth-color);
+}
+
+.footer-form-btn {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  width: 200px;
+  background-color: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  cursor: pointer;
+}
+
+.icon-send {
+  margin-left: 10px;
+  fill: var(--white-text-color);
+}
+
 /* Страница Портфолио */
 
 /* Конопки Фильтры */
@@ -728,4 +783,112 @@ img {
   cursor: pointer;
   background-image: url("/Icons/close.svg");
   background-size: contain;
+}
+
+.modal-title {
+  display: block;
+  padding-top: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.form-modal {
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+.modal-element {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-element:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.modal-label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.modal-svg {
+  margin-left: 12px;
+  fill: var(--title-text-color);
+}
+
+.modal-item {
+  position: relative;
+}
+
+.textarea {
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-checkbox {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+}
+
+.icon-checkbox {
+  fill: var(--white-text-color);
+  stroke: var(--title-text-color);
+}
+
+.conditions {
+  color: var(--accent-text-color);
+}
+
+.modal-btn-submit {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 50px;
+
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+}
+
+.modal-btn-submit:hover {
+  background-color: var(--main-btn-hover);
 }
