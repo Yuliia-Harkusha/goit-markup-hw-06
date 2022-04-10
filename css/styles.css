@@ -782,23 +782,19 @@ img {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-
-.modal-close-svg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  fill: var(--title-text-color);
   cursor: pointer;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-svg:hover,
-.modal-close-svg:focus {
+.modal-close-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
   fill: var(--accent-text-color);
 }
 
