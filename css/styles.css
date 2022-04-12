@@ -543,18 +543,8 @@ img {
   align-items: center;
 }
 
-.footer-form-element:not(:last-child) {
-  margin-right: 12px;
-}
-
-/* .footer-label {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: var(--footer-auth-color);
-} */
-
 .footer-input {
+  margin-right: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -930,7 +920,7 @@ img {
 }
 
 .checkbox:checked + .icon-checkbox {
-  background-image: url(../Icons/icon\ check.svg);
+  background-image: url(../Icons/check.svg);
   background-size: contain;
   background-origin: border-box;
   border: transparent;
