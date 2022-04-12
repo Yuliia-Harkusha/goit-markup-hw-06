@@ -930,7 +930,7 @@ img {
 }
 
 .checkbox:checked + .icon-checkbox {
-  background-image: url(/Icons/icon\ check.svg);
+  background-image: url(../Icons/icon\ check.svg);
   background-size: contain;
   background-origin: border-box;
   border: transparent;
